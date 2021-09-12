@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none; 
     overflow: none;
+    
 }
 html{
     scroll-behavior:smooth;
@@ -201,22 +202,22 @@ section{
 }
 
 /* Projects */
-.services, .contact{
+.project, .contact{
     font-family: 'Poppins', sans-serif;
     background: #111;
     color: white;
 }
-.services .title{
+.project .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 300;
     margin-bottom: 50px;
     padding-bottom: 20px;
     padding-top: 30px;
     font-family: 'Ubuntu', sans-serif;
 }
-.services .title::before{
+.project .title::before{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -226,47 +227,44 @@ section{
     background: #fff;
     transform: translateX(-50%);
 }
-.services .services-content{
+.project .project-content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.project .project-content .card{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;  
-    padding-bottom: 30px;
-    text-align: justify;
+    border: 2px solid crimson;
 }
-.services .services-content .card{
-    display: flex;
-    
-}
-.services .services-content .card .box{
+.project .project-content .card .box{
     border: 1px solid lightgray;
-    background: #222;
+    background: #2b2b2b;
     padding: 20px 25px;
     text-align: center;
     transition: all .3s ease;
     border-radius: 10px;
-    margin: 12px;
-    width: 400px;
-    
+    margin: 10px;
+    width: 300px;
 }
 
-.services .services-content .card i{
+.project .project-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color .3s ease;
 }
-.services .services-content .card .box:hover{
+.project .project-content .card .box:hover{
     background: crimson;
 }
-.services .services-content .card .box:hover i{
+.project .project-content .card .box:hover i{
     color: #fff;
 }
-.services .services-content .card .text{
+.project .project-content .card .text{
     font-size: 50px;
     padding-bottom: 10px;
 }
 
-.services .services-content .checkout{
+.project .project-content .checkout{
     margin-top: 12px;
 }
 .btn{
@@ -284,15 +282,15 @@ section{
     color: crimson;
     font-weight: 500;
 }
-.services a{
+.project a{
     font-style: none;
     color: white;
 }
-.services-content span{
+.project-content span{
     color: crimson;
     font-weight: 500;
 }
-.services-content span:hover{
+.project-content span:hover{
     color: rgba(220, 20, 60, 0.623);
 }
 
@@ -401,34 +399,7 @@ section{
     width: 60%;
 }
 
-.scroll-up-btn{
-    position: fixed;
-    height: 40px;
-    width: 40px;
-    background: crimson;
-    right: 20px;
-    bottom: 10px;
-    text-align: center;
-    line-height:45px;
-    color: #fff;
-    z-index: 999;
-    font-size: 30px;
-    border-radius: 20px;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
-.scroll-up-btn.show{
-    opacity: 1;
-    pointer-events: auto;
-    bottom: 30px;
-}
-.scroll-up-btn:hover{
-    background: none;
-    color: crimson;
-    border: 1px solid crimson;
-}
+
 
 /* Contact */
 .contact .title::before{
@@ -739,11 +710,11 @@ footer .social-links{
         font-weight: bolder;
         letter-spacing: 1.5px ;
     }
-    .services .services-content .card .text{
-        font-size: 35px;
+    .project .project-content .card .text{
+        font-size: 25px;
         padding-bottom: 10px;
     }
-    .services .services-content p{
+    .project .project-content p{
         font-size: 14px;
     }
     .skills .skills-content .column,
@@ -751,12 +722,6 @@ footer .social-links{
         width: 100%;
         margin-bottom: 25px;
         transition: all .5s ease;
-    }
-
-    .scroll-up-btn{
-        height: 30px;
-        width: 30px;
-        line-height:30px;
     }
 
 }
@@ -777,18 +742,18 @@ footer .social-links{
         font-size: 15px;
         transition: all .3s ease;
     }
-    .services .services-content .card{
-        margin-left: 0px;
-    }
-    .services .services-content .card .box{
+   
+    .project .project-content .card .box{
         margin-bottom: 20px;
-        width: 210px;
+        width: 200px;
+        
     }
-    .services .services-content .card .text{
-        font-size: 35px;
+    .project .project-content .card .text{
+        font-size: 25px;
         padding-bottom: 10px;
     }
-    .services .services-content p{
+    .project .project-content p{
         font-size: 14px;
+    
     }
 }
