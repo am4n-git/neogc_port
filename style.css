@@ -140,17 +140,6 @@ section{
     background: #111;
     transform: translateX(-50%);
 }
-.about .title::after{
-    content: "who i am";
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    padding: 5px;
-    font-size: 20px;
-    color: crimson;
-    background: #fff;
-    transform: translateX(-50%);
-}
 .about .about-content .left img{
     height: 400px;
     width: 400px;
@@ -164,7 +153,6 @@ section{
 }
 .about .about-content .left{
     width: 45%;
-    
 }
 .about .about-content .right{
     width: 55%;
@@ -235,7 +223,7 @@ section{
 .project .project-content .card{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid crimson;
+    
 }
 .project .project-content .card .box{
     border: 1px solid lightgray;
@@ -245,9 +233,9 @@ section{
     transition: all .3s ease;
     border-radius: 10px;
     margin: 10px;
-    width: 300px;
+    width:250px;
+    
 }
-
 .project .project-content .card i{
     font-size: 50px;
     color: crimson;
@@ -260,7 +248,7 @@ section{
     color: #fff;
 }
 .project .project-content .card .text{
-    font-size: 50px;
+    font-size: 30px;
     padding-bottom: 10px;
 }
 
@@ -280,7 +268,7 @@ section{
 }
 .btn:hover{
     color: crimson;
-    font-weight: 500;
+    background-color: #fff;
 }
 .project a{
     font-style: none;
