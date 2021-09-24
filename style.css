@@ -213,7 +213,7 @@ section{
 .project .project-content .card{
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 .project .project-content .card .box{
     border: 1px solid lightgray;
@@ -240,10 +240,6 @@ section{
 .project .project-content .card .text{
     font-size: 30px;
     padding-bottom: 10px;
-}
-
-.project .project-content .checkout{
-    margin-top: 12px;
 }
 .btn{
     display: inline-block;
