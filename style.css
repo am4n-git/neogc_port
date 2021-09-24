@@ -120,16 +120,6 @@ section{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-.about .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 180px;
-    height: 3px;
-    background: #111;
-    transform: translateX(-50%);
-}
 .about .about-content .left img{
     height: 400px;
     width: 400px;
@@ -194,16 +184,6 @@ section{
     padding-bottom: 20px;
     padding-top: 30px;
     font-family: 'Ubuntu', sans-serif;
-}
-.project .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 100px;
-    height: 3px;
-    background: #fff;
-    transform: translateX(-50%);
 }
 .project .project-content{
     display: flex;
@@ -291,16 +271,6 @@ section{
     padding-top: 30px;
     font-family: 'Ubuntu', sans-serif;
 }
-.skills .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 100px;
-    height: 3px;
-    background: #111;
-    transform: translateX(-50%);
-}
 .skills .skills-content{
     display: flex;
     flex-wrap: wrap;
@@ -344,9 +314,6 @@ section{
     content: "";
     position: absolute;
     height: 90%;
-    width: 50%;
-    left: 0;
-    top: 0;
     background: crimson;
 }
 .skills .skills-content .right .html::before{
@@ -371,16 +338,6 @@ section{
 
 
 /* Contact */
-.contact .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 100px;
-    height: 3px;
-    background: rgb(255, 255, 255);
-    transform: translateX(-50%);
-}
 
 .contact .contact-content .column{
    width: calc(55%-20px);
