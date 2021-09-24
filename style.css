@@ -28,7 +28,7 @@ html{
 }
 .max-width{
     max-width: 1500px;
-    padding: 0 40px;
+    padding: 0 10px;
     margin: auto;
 }
 .navbar{
@@ -611,11 +611,11 @@ footer .social-links{
         padding: 0 25px;
     }
     .navbar .logo a{
-        font-size: 25px;
+        font-size: 15px;
     }
     .navbar .menu li a{
-        font-size: 14px;
-        margin-left: 15px;
+        font-size: 12px;
+        margin-left: 10px;
     }
    
     .home .home-content .text-2{
