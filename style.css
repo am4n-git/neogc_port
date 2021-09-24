@@ -513,9 +513,12 @@ footer .social-links{
 }
 .blog-container
 {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto;
     padding: 0 50px;
+    flex-direction: column;
 }
 .blog-content{
     transition: .2s ease-in-out;
@@ -649,7 +652,6 @@ footer .social-links{
         transition: all .5s ease;
     }
     .blog1{
-        
         padding: 100px 10px;
         max-width: 400px;
     }
